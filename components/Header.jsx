@@ -56,7 +56,7 @@ export default function Header() {
                                 (<div className="sm:flex sm:gap-2 border-r pr-4">
                                     <div className="h-9 w-9">
                                         <img src={session?.user?.image} alt=""
-                                            className="h-full w-full rounded-full object-cover object-center" />
+                                            className="h-full w-full border rounded-full object-cover object-center" />
                                     </div>
                                 </div>)
                                 :
