@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "latest",
     "eslint-config-next": "latest",
-    "postcss": "latest" ,
+    "postcss": "latest",
     "tailwindcss": "latest"
   }
 }
