@@ -76,8 +76,8 @@ export default async function handler(req, res) {
         line_items,
         mode: "payment",
         customer_email: email,
-        success_url: "http://localhost:3000/cart?checkout-success",
-        cancel_url: "http://localhost:3000/cart?checkout-cancel",
+        success_url: process.env.SUCCESS_URL + "cart?checkout-success",
+        cancel_url: process.env.SUCCESS_URL + "cart?checkout-cancel",
         metadata: { orderId: orderDoc._id.toString(), test: "ok" }
     })
 
