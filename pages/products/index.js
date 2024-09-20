@@ -16,7 +16,7 @@ export default function Products({ allProducts }) {
 
     return <>
         <div className="flex justify-center min-h-screen w-full p-4">
-            <div className="grid grid-cols-2 gap-x-3 md:gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 xl:gap-x-8 px-2">
+            <div className="grid grid-cols-2 gap-x-3 md:gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5 xl:gap-x-8 px-2">
                 {allProducts?.length > 0 && allProducts.map(product => (
                     <div key={product._id}>
                         <div className="group block overflow-hidden border border-accent rounded-xl 
